@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+	font-family: Ariel;
+	margin: 0;
+}
+
+#game {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 600px;
+}
+
+#audio {
+	position: absolute;
+	right: 550px;
+	text-align: center;
+	margin-top: 770px;
+}
+
+#input {
+	position: absolute;
+	right: 852px;
+	text-align: center;
+	margin-top: 770px;
+}
