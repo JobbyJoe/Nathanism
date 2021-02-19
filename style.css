@@ -1,0 +1,246 @@
+
+* {
+	box-sizing: border-box;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #000000;
+  z-index: 500;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #8B0000;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .block {
+	padding-top: 60px;
+}
+
+ol {
+	margin-left: 20px;
+}
+
+.block {
+	margin: auto;
+	width: 55vw;
+	margin-bottom: 10px;
+	padding: 20vw;
+}
+
+
+body{
+	color: white;
+	font-family: Ariel;
+	margin: 0;
+}
+
+#header {
+	background-color: #ff0000;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#sidebar1{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/50/Black_colour.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 100px 200px
+}
+
+#sidebar2{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/50/Black_colour.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 100px 200px
+}
+
+#main{
+	background: linear-gradient(180deg,black, red, black) no-repeat center fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.secret{
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+}
+
+/*
+ Create a div for two sidebars, add a red border
+ Create anoter div for the center 
+ Create a final div for the header
+ linear-gradient(180deg,black, red, black) no-repeat center fixed;
+*/
+
+
+.exp{
+	visibility: hidden;
+}
+.chad{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.page2{
+	text-align: center;
+	background-image: url("Nathan'sGallery/200.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.king{
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+
+.column1{
+	text-align: center;
+	padding: 5px;
+	height: 600px;
+	filter: brightness(100%);
+	filter: saturate(100%);
+	filter: contrast(100%);
+	width: 33.33%
+	
+}
+
+.column2{
+	float: left;
+	padding: 5px;
+	transform: rotate(-5deg);
+	width: 33.33%
+}
+
+.column3{
+	float: right;
+	padding: 5px;
+	width: 33.33%
+	-webkit-transform: scaleX(-1);
+	transform: rotate(-5deg);
+	transform: scaleX(-1);
+}
+
+.Step{
+	font-style: italic;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 1px 1px;
+	font-size: 5vw;
+	color: black;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+
+a:link, a:visited {
+	background-color: red;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+button{
+	background-color: red;
+	border: none;
+}
+
+p{
+	font-size: 18px;
+}
+
+dt{
+	font-size: 24px;
+}
+
+dd{
+	font-size: 18px;
+}
+
+pre{
+	font-size: 10px;
+}
+
+li{
+	font-size: 18px;
+}
+
+.poster{
+	filter: blur(5px);
+}
+
+.work{
+	text-align: center;
+	font-size: 60px;
+	color: red;
+	font-weight: bold;
+	font-family: Ariel;
+	font-style: italic
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+	color: black;
+}
+
+table#t01 tr:nth-child(even) {
+	background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+table#t01 th {
+	background-color: black;
+	color: white;
+}
